@@ -4,7 +4,7 @@ sudo: false
 env:
   global:
     - PIP_DEPS="pytest coveralls pytest-cov flake8"
-    - CONDA_EXE='' # Hacky fix to make Travis not complain
+    - CONDA_EXE="" # Hacky fix to make Travis not complain
 
 python:
   - '3.5'
